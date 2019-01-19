@@ -1,0 +1,4 @@
+name: rancher-terraform-digitalocean
+url: https://github.com/lunagt/rancher-terraform-digitalocean
+desc: Rancher server on digitalocean.
+slug: linux

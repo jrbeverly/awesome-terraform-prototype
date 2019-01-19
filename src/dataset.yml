@@ -1,0 +1,7 @@
+title: terraform
+sections:
+  - title: Community Modules
+    desc: For more Community Modules not listed here please see the [Terraform Module Registry](https://registry.terraform.io/).
+    slug: community
+  - title: Official Resources
+    slug: official

@@ -1,0 +1,5 @@
+name: segmentio/stack
+url: https://github.com/segmentio/stack
+description: Configures production infrastructure with AWS, Docker, and ECS.
+tags: 
+  - tool

@@ -1,0 +1,3 @@
+name: terraform-aws-efs
+url: https://github.com/cloudposse/terraform-aws-efs
+description: Defines an EFS Filesystem.

@@ -1,0 +1,3 @@
+name: terraform-aws-ecr
+url: https://github.com/cloudposse/terraform-aws-ecr
+description: Manages Docker container registries on AWS ECR.
