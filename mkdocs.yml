@@ -1,11 +1,37 @@
-site_name: awesome-terraform-prototype
+# Project information
+site_name: 'Awesome Terraform'
+site_description: 'Curated list of awesome terraform resources'
+site_author: 'Jonathan Beverly'
+# site_url: 'https://squidfunk.github.io/mkdocs-material/'
+
+# Repository
+repo_name: 'squidfunk/mkdocs-material'
+repo_url: 'https://github.com/squidfunk/mkdocs-material'
 docs_dir: docs/
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
+
+# Configuration
 theme:
   name: 'material'
+  language: 'en'
   logo: 'images/logo.png'
+  favicon: 'images/favicon.ico'
   palette:
     primary: 'orange'
     accent: 'yellow'
   font:
     text: 'Ubuntu'
     code: 'Ubuntu Mono'
+  search:
+    language: 'en'
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'
+    - type: 'twitter'
+      link: 'https://twitter.com/squidfunk'
