@@ -7,8 +7,9 @@ stages:
 ##
 build:
   stage: "Build"
-  image: squidfunk/mkdocs-material
+  image: python
   script:
+    - pip install mkdocs
     - mkdocs build --site-dir publish/ --strict
   artifacts:
     expire_in: 1 week
