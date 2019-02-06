@@ -16,7 +16,7 @@ copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
 theme:
   name: 'material'
   language: 'en'
-  logo: 'images/logo.png'
+  logo: 'images/logo.svg'
   favicon: 'images/favicon.ico'
   palette:
     primary: 'orange'
