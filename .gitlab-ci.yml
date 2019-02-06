@@ -10,23 +10,23 @@ build:
   image: python
   script:
     - pip install mkdocs-material
-    - mkdocs build --site-dir publish/ --strict
+    - mkdocs build --site-dir public/ --strict
   artifacts:
     expire_in: 1 week
     paths:
-      - publish/
+      - public/
 
 ##
 ## Deploy
 ##
-# netlify:
-#   stage: "Deploy"
-#   image: node:latest
-#   script:
-#     - npm i -g netlify-cli
-#     - netlify deploy --dir public --site ${NETLIFY_SITE_ID} --auth ${NETLIFY_TOKEN} --prod
-#   artifacts:
-#     paths:
-#       - public
-#   only:
-#     - master
+netlify:
+  stage: "Deploy"
+  image: node:latest
+  script:
+    - npm i -g netlify-cli
+    - netlify deploy --dir public --site ${NETLIFY_SITE_ID} --auth ${NETLIFY_TOKEN} --prod
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
