@@ -9,7 +9,7 @@ build:
   stage: "Build"
   image: python
   script:
-    - pip install mkdocs
+    - pip install mkdocs-material
     - mkdocs build --site-dir publish/ --strict
   artifacts:
     expire_in: 1 week
