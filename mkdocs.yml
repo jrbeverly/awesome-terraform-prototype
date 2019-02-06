@@ -19,8 +19,8 @@ theme:
   logo: 'images/logo.svg'
   favicon: 'images/favicon.ico'
   palette:
-    primary: 'orange'
-    accent: 'yellow'
+    primary: 'deep purple'
+    accent: 'purple'
   font:
     text: 'Ubuntu'
     code: 'Ubuntu Mono'
