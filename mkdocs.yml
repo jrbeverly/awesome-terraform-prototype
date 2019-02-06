@@ -1,0 +1,4 @@
+site_name: awesome-terraform-prototype
+docs_dir: docs/
+theme:
+  name: 'material'
