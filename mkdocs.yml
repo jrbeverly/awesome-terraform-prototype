@@ -2,3 +2,10 @@ site_name: awesome-terraform-prototype
 docs_dir: docs/
 theme:
   name: 'material'
+  logo: 'images/logo.png'
+  palette:
+    primary: 'orange'
+    accent: 'yellow'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
