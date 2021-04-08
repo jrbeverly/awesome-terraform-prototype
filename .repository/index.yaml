@@ -1,0 +1,18 @@
+slug: awesome-terraform-prototype
+description: Prototyping a concept of an awesome-list based on yaml files.
+project: workbench
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2021
+topics: |-
+  [
+    "netlify",
+    "mkdocs",
+    "markdown",
+    "yml",
+    "awesome-list"
+  ]
